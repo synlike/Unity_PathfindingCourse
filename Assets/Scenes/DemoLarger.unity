@@ -152,11 +152,11 @@ MonoBehaviour:
   mapData: {fileID: 1538918017}
   graph: {fileID: 2043358840}
   pathfinder: {fileID: 956376541}
-  startX: 2
-  startY: 7
-  goalX: 12
-  goalY: 3
-  timeStep: 0.1
+  startX: 0
+  startY: 0
+  goalX: 32
+  goalY: 18
+  timeStep: 0
 --- !u!4 &258986416
 Transform:
   m_ObjectHideFlags: 0
@@ -302,6 +302,10 @@ MonoBehaviour:
   pathColor: {r: 0, g: 1, b: 1, a: 1}
   arrowColor: {r: 0.85, g: 0.85, b: 0.85, a: 1}
   highLightColor: {r: 1, g: 1, b: 0.5, a: 1}
+  showIterations: 1
+  showColors: 1
+  showArrows: 1
+  exitOnGoal: 1
   isComplete: 0
 --- !u!4 &956376542
 Transform:
@@ -379,7 +383,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.5
+  orthographic size: 20
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -404,7 +408,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 7.5, y: 20, z: 4}
+  m_LocalPosition: {x: 31, y: 20, z: 17.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

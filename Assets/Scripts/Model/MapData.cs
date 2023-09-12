@@ -11,7 +11,7 @@ public class MapData : MonoBehaviour
     private int width, height;
 
     private TextAsset textAsset;
-    private Texture2D textureMap;
+    public Texture2D textureMap;
     private string resourcePath = "MapData";
 
     private void Start()

@@ -10,17 +10,20 @@ public class Graph : MonoBehaviour
 
     private int[,] m_mapData;
     private int m_width;
+    public int Width { get { return m_width; }}
+
     private int m_height;
+    public int Height { get { return m_height; } }
 
     public static readonly Vector2[] allDirections =
     {
-        new Vector2(0f, 1f),
-        new Vector2(1f, 1f),
         new Vector2(0f, 0f),
-        new Vector2(1f, -1f),
+        new Vector2(0f, 1f),
+        new Vector2(1f, 0f),
+        new Vector2(1f, 1f),
         new Vector2(0f, -1f),
-        new Vector2(-1f, -1f),
         new Vector2(-1f, 0f),
+        new Vector2(-1f, -1f),
         new Vector2(-1f, 1f),
 
     };
