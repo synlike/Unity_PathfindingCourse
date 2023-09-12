@@ -152,10 +152,10 @@ MonoBehaviour:
   mapData: {fileID: 1538918017}
   graph: {fileID: 2043358840}
   pathfinder: {fileID: 956376541}
-  startX: 2
-  startY: 7
-  goalX: 54
-  goalY: 25
+  startX: 0
+  startY: 0
+  goalX: 32
+  goalY: 18
   timeStep: 0
 --- !u!4 &258986416
 Transform:
