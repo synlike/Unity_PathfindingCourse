@@ -302,11 +302,12 @@ MonoBehaviour:
   pathColor: {r: 0, g: 1, b: 1, a: 1}
   arrowColor: {r: 0.85, g: 0.85, b: 0.85, a: 1}
   highLightColor: {r: 1, g: 1, b: 0.5, a: 1}
-  showIterations: 1
+  showIterations: 0
   showColors: 1
-  showArrows: 1
+  showArrows: 0
   exitOnGoal: 1
   isComplete: 0
+  mode: 1
 --- !u!4 &956376542
 Transform:
   m_ObjectHideFlags: 0

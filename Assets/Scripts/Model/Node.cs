@@ -17,6 +17,8 @@ public class Node
     public int xIndex = -1;
     public int yIndex = -1;
 
+    public float distanceTraveled = Mathf.Infinity;
+
     public Vector3 position;
 
     public List<Node> neighbors = new List<Node>();
